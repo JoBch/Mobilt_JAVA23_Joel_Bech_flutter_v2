@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_v2/Resources.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SecondPage extends StatefulWidget {
   const SecondPage({super.key, required this.title});
-
   final String title;
 
   @override
@@ -62,7 +60,18 @@ class _SecondPageState extends State<SecondPage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Expanded(
-                    child: inputSharedPref(context, _textController),
+                    child: TextFormField(
+                      controller: _textController,
+                      decoration: const InputDecoration(
+                        labelText: "Enter something to store in SharedPref",
+                      ),
+                      validator: (String? value) {
+                        if (value == null || value.isEmpty) {
+                          return "Please enter some text.";
+                        }
+                        return null;
+                      },
+                    ),
                   ),
                   Padding(
                     padding: const EdgeInsets.symmetric(

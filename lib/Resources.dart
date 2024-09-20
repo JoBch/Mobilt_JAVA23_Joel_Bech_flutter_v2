@@ -30,21 +30,6 @@ Row navigationRow(BuildContext context, String button1, String path1,
   );
 }
 
-TextFormField inputSharedPref(BuildContext context, TextEditingController textController) {
-  return TextFormField(
-    controller: textController,
-    decoration: const InputDecoration(
-      labelText: "Enter something to store in SharedPref",
-    ),
-    validator: (String? value) {
-      if (value == null || value.isEmpty) {
-        return "Please enter some text.";
-      }
-      return null;
-    },
-  );
-}
-
 void showToast(String message) {
   Fluttertoast.showToast(
     msg: "SharedPref: $message",
@@ -56,3 +41,4 @@ void showToast(String message) {
     fontSize: 16.0,
   );
 }
+
