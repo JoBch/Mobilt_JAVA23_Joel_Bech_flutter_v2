@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const Image(
               image: AssetImage("./assets/flutter_dart_bird.gif"),
             ),
-            buildSharedPrefText(sharedPrefText!),
+            buildSharedPrefText(sharedPrefText ?? "No Saved Text"),
             navigationRow(context, "SharedPref", "/second", "Sensor", "/third"),
           ],
         ),

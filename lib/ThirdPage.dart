@@ -56,7 +56,7 @@ class _ThirdPageState extends State<ThirdPage> {
           children: <Widget>[
             //Display the accelerometer data
             Text(_accelerometerData, style: const TextStyle(fontSize: 16)),
-            buildSharedPrefText(sharedPrefText!),
+            buildSharedPrefText(sharedPrefText?? "No Saved Text"),
             navigationRow(context, "Home", "/", "SharedPref", "/second"),
           ],
         ),

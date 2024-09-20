@@ -55,7 +55,7 @@ class _SecondPageState extends State<SecondPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            buildSharedPrefText(sharedPrefText!),
+            buildSharedPrefText(sharedPrefText?? "No Saved Text"),
             Form(
               key: _formKey,
               child: Row(
