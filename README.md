@@ -26,20 +26,19 @@ In this assignment i have created and app that uses SharedPreferences to store a
 Home page
 <br>
 <br>
-<img width="1512" alt="Home page of app" src="https://github.com/user-attachments/assets/8e08b0bc-7ae1-4709-93d2-a130280c49a6">
-<br>
+<img width="1512" height="1000" alt="Home page of app" src="https://github.com/user-attachments/assets/43e95d06-ac5a-4a80-917a-499cf2fef54f">
 <br>
 <br>
 Second page
 <br>
 <br>
-<img width="1512" alt="Shared Preference input" src="https://github.com/user-attachments/assets/9e713b9f-0515-4fcb-8ccd-33af38f34784">
+<img width="1512" height="1000" alt="Shared Preference input" src="https://github.com/user-attachments/assets/9c61dc2e-f6de-4f13-8c0e-d28ac62d8312">
 <br>
 <br>
 Third Page
 <br>
 <br>
-<img width="1512" alt="Showing Accelerometer data" src="https://github.com/user-attachments/assets/5bb107f6-3f2a-457f-b799-6ebc4e09271a">
+<img width="1512" height="1000" alt="Showing Accelerometer data" src="https://github.com/user-attachments/assets/5bb107f6-3f2a-457f-b799-6ebc4e09271a">
 <br>
 <br>
 
